@@ -1,6 +1,10 @@
 @media screen and (max-width: 601px){
     .join {
-        height: 25vh;
+        /* height: 25vh; */
+    }
+
+    .imgRow img {
+        margin-bottom: 80px;
     }
 }
 
