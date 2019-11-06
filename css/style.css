@@ -4,6 +4,20 @@
     }
 }
 
+input {
+    border: solid black 2px !important;
+    margin-bottom: 10px;
+}
+
+input::first-letter {
+    padding-left: 5px !important;
+}
+
+textarea {
+    height: 180px;
+    border: solid black 2px !important;
+}
+
 span {
     color: white;
     font-size: 40px;
@@ -33,6 +47,31 @@ p {
     font-size: 18px;
     line-height: 35px;
     color: #6F7287;
+}
+
+button {
+    margin-top: 25px;
+    height: 50px;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: solid 2px black;
+    color: black;
+    transition-duration: .2s;
+}
+
+button:hover {
+    color: white;
+    background-color: #FFCC33;
+    transition-duration: .2s;
+    border: none !important;
+}
+
+button:focus {
+    background-color: #FFCC33;
+    color: white;
+    border: none;
 }
 
 .nav {
@@ -92,5 +131,9 @@ p {
 
 .sponsors {
     padding-top: 100px;
+}
+
+.imgRow {
+    margin-bottom: 50px;
 }
 
